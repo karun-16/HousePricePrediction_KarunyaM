@@ -135,6 +135,16 @@ HousePricePrediction_KarunyaM/
 │   ├── correlation_heatmap.png
 │   └── actual_vs_predicted.png
 ```
+## HouseVision AI Extension
+
+This repository now includes HouseVision AI, a full-stack web application built on top of the original machine learning model developed during the internship.
+
+Features:
+- Property price prediction
+- FastAPI backend
+- Next.js frontend
+- Interactive analytics
+- Model transparency
 
 ---
 
@@ -143,7 +153,6 @@ HousePricePrediction_KarunyaM/
 - Hyperparameter tuning.
 - Additional regression models.
 - Feature importance analysis.
-- Streamlit web application.
 - Model deployment.
 
 ---
