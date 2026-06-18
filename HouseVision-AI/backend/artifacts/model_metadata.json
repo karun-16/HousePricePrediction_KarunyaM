@@ -1,0 +1,107 @@
+{
+  "model": "Linear Regression",
+  "model_version": "housing-lr-1.0.0",
+  "feature_names": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "stories",
+    "parking",
+    "mainroad_yes",
+    "guestroom_yes",
+    "basement_yes",
+    "hotwaterheating_yes",
+    "airconditioning_yes",
+    "prefarea_yes",
+    "furnishingstatus_semi-furnished",
+    "furnishingstatus_unfurnished"
+  ],
+  "feature_means": {
+    "area": 5150.54128440367,
+    "bedrooms": 2.9651376146788992,
+    "bathrooms": 1.2862385321100918,
+    "stories": 1.8055045871559634,
+    "parking": 0.6935779816513762,
+    "mainroad_yes": 0.8587155963302753,
+    "guestroom_yes": 0.1779816513761468,
+    "basement_yes": 0.3504587155963303,
+    "hotwaterheating_yes": 0.045871559633027525,
+    "airconditioning_yes": 0.3155963302752294,
+    "prefarea_yes": 0.23486238532110093,
+    "furnishingstatus_semi-furnished": 0.41651376146788993,
+    "furnishingstatus_unfurnished": 0.326605504587156
+  },
+  "coefficients": {
+    "area": 235.96880454139568,
+    "bedrooms": 76778.70163437817,
+    "bathrooms": 1094444.7861005974,
+    "stories": 407476.5949849111,
+    "parking": 224841.91327662626,
+    "mainroad_yes": 367919.94767957245,
+    "guestroom_yes": 231610.03717564975,
+    "basement_yes": 390251.1761810922,
+    "hotwaterheating_yes": 684649.8853387911,
+    "airconditioning_yes": 791426.7358431863,
+    "prefarea_yes": 629890.56531336,
+    "furnishingstatus_semi-furnished": -126881.81758510822,
+    "furnishingstatus_unfurnished": -413645.06222822214
+  },
+  "intercept": 260032.35760741215,
+  "metrics": {
+    "mae": 970043.4039201637,
+    "rmse": 1324506.9600914388,
+    "r2": 0.6529242642153184,
+    "random_forest_mae": 1021546.0353211008,
+    "random_forest_rmse": 1400565.9728553821,
+    "random_forest_r2": 0.611918531405699
+  },
+  "dataset": {
+    "name": "Kaggle Housing Prices Dataset",
+    "records": 545,
+    "features": 12,
+    "average_price": 4766729.247706422,
+    "price_min": 1750000.0,
+    "price_max": 13300000.0
+  },
+  "category_thresholds": [
+    3710000.0,
+    5191666.66666666
+  ],
+  "numeric_ranges": {
+    "area": [
+      1650.0,
+      16200.0
+    ],
+    "bedrooms": [
+      1.0,
+      6.0
+    ],
+    "bathrooms": [
+      1.0,
+      4.0
+    ],
+    "stories": [
+      1.0,
+      4.0
+    ],
+    "parking": [
+      0.0,
+      3.0
+    ]
+  },
+  "price_distribution": {
+    "min": 1750000.0,
+    "q10": 2835000.0,
+    "q25": 3430000.0,
+    "median": 4340000.0,
+    "q75": 5740000.0,
+    "q90": 7350000.0,
+    "max": 13300000.0
+  },
+  "limitations": [
+    "The model is trained on 545 historical records from one public dataset.",
+    "It does not account for live market conditions, precise locality, property age, or transaction costs.",
+    "The estimated range is derived from test RMSE and is not a formal appraisal or guaranteed sale price.",
+    "Predictions outside observed feature ranges are extrapolations and should be treated cautiously."
+  ]
+}

@@ -1,0 +1,52 @@
+# =========================
+# Frontend
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.production.local
+frontend/*.tsbuildinfo
+
+# =========================
+# Backend
+# =========================
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+*.py[cod]
+
+# =========================
+# Python
+# =========================
+.venv/
+__pycache__/
+.pytest_cache/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.*
+
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Editors
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db

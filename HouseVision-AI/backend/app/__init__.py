@@ -1,0 +1,2 @@
+"""HouseVision AI backend package."""
+
